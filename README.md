@@ -42,7 +42,7 @@ var data= {
 }
 ```
 实例：
-```
+```javascript
 Ajax.request(www.server.com/index.php, {
     success: function (xhr) {
         //to do with xhr
@@ -54,7 +54,7 @@ Ajax.request(www.server.com/index.php, {
 ```
 
 一个完整的实例：
-```
+```javascript
 Ajax.request(www.server.com/index.php, {
     method: 'GET',
     data: 'name=ajax&age=16',
